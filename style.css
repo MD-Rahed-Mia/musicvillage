@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.center-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* header section start from here */ 
+
+#header-section{
+	padding: 5%;
+	position: relative;
+	min-height: 100vh;
+	z-index: 222;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+
+#header-section::after{
+	content: " ";
+	background-image: url(bg-10.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	filter: blur(1px);
+	filter: brightness(80%);
+}
+
+#header-section h1{
+	font-size: 4rem;
+}
+
+#header-section h3{
+	font-size: 2rem;
+	margin: 10px 10%;
+}
+/* header section ends from here */ 
+
+/* banner section starts from here */ 
+
+#banner-section{
+	width: 100%;
+	height: 120vh;
+	background-color: #252529;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bolder;
+}
+
+.banner-icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.music-icon{
+	font-size: 3rem;
+	color: white;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+#banner-section div > h2{
+	font-size: 2rem;
+	margin-bottom: 30px;
+
+}
+
+#banner-section div > p{
+	font-size: 1rem;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.banner-btn{
+	padding: 7px 10px;
+	outline: none;
+	border: none;
+	background-color: #B90415;
+	color: white;
+	font-weight: 900;
+	line-height: 2rem;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+.banner-btn:hover{
+	background-color: #fa2036;
+}
+
+#banner-section div:last-child > p{
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.mockup-1 img{
+	width: 600px;
+	height: 400px;
+	padding-top: 30px;
+}
+
+/* apps section start from here */ 
+
+
+#apps-section .apps-header{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 4%;
+	color: rgb(44, 40, 40);
+
+}
+
+.apps-header h1{
+	font-size: 2rem;
+	margin-bottom: 40px;
+
+}
+
+.apps-btn{
+	padding: 10px 15px;
+	color: white;
+	background-color: #B90415;
+	outline: none;
+	border: none;
+	margin-top: 20px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+.mockup-2{
+	width: 600px;
+	height: 400px;
+	padding-top: 30px;
+}
+
+
+/* apps description starts from here */ 
+
+#apps-desc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 40px;
+	color: rgb(44, 40, 40);
+	position: relative;
+	width: 100%;
+	height: 80vh;
+}
+
+#apps-desc::after{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(md.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	z-index: -11;
+	filter: blur(1px);
+	filter: brightness(60%);
+}
+
+#apps-desc h1{
+	margin: 10px;
+	color: white;
+	font-size: 2.5rem;
+}
+
+#apps-desc p{
+	text-align: center;
+	padding: 10px 20%;
+	color: white;
+}
+
+
+/* gifts card section starts from here */ 
+
+#card-section{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 4%;
+}
+
+.card-img{
+	flex: 1;
+}
+
+.card-img img{
+	width: 400px;
+	height: 300px;
+}
+
+.card-desc{
+	flex: 1;
+	color: rgb(44, 40, 40);
+}
+
+.card-desc h4{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+
+}
+
+.card-desc p{
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 1rem;
+}
+
+
+.cards-q{
+	margin-top: 20px;
+}
+
+.cards-q span{
+	color: #B90415;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.card-btn{
+	color: #B90415;
+	cursor: pointer;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+/* services are starts from here */ 
+
+#services{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+	padding: 3% 5%;
+	background-color: #252529;
+	color: white;
+}
+
+
+.service-card h1{
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.service-card hr{
+	margin: 10px 0;
+}
+
+.service-card ul li{
+	list-style-type: none;
+}
+
+.service-card ul li a{
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: white;
+	font-weight: 100;
+}
+
+
+/* services ends from here */ 
+
+
+/* footer starts from here */ 
+
+footer{
+	background-color: #383838;
+	padding: 1%;
+	text-align: center;
+	color: white;
+	font-size: 0.8rem;
+}
+
+
+/* meadia query starts from here */ 
+
+@media screen and (max-width: 425px){
+	
+	body{
+		width: 100%;
+	}
+	
+	#header-section{
+		width: 100%;
+	}
+
+	#header-section h1{
+		font-size: 2.5rem;
+	}
+
+	#header-section h3{
+		font-size: 1.5rem;
+	}
+
+	#header-section p{
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	#banner-section{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#banner-section > div{
+		width: 100%;
+	}
+
+	#banner-section .banner-icon{
+		font-size: 1rem;
+	}
+
+	#banner-section div h2{
+		font-size: 1.7rem;
+		margin-left: 5%
+	}
+
+	#banner-section div p{
+		font-size: 12px;
+		margin: 0 5%;
+	}
+
+	.banner-btn{
+		margin-top: 50px;
+		font-size: 0.9rem;
+		padding: 5px 10px;
+		margin-left: 5%;
+	}
+
+	.mockup-1 img{
+		width: 100%;
+		height: 300px;
+	}
+
+	.mockup-2{
+		width: 100%;
+	}
+
+	#apps-desc{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#apps-desc h1{
+		text-align: center;
+	}
+
+	#card-section{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#services{
+		padding: 5%;
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	footer{
+		padding: 1rem 0px;
+	}
+}
+
